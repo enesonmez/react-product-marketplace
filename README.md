@@ -4,6 +4,8 @@
 
 A project created for an overview of React. This project covers listing data by pulling data from an API, understanding state - props APIs, working with events, using conditional structures, simple routing, data exchange between parent child. At the same time, cart management was done. The user can add the products in stock to his cart and remove them in any quantity. In addition, products are filtered by category. (React'a genel bir bakış için oluşturulmuş bir proje. Bu proje bir api'dan veri çekerek verileri listelemeyi, state - props apılarını anlamayı, event'lar ile çalışmayı, koşullu yapılar kullanmayı, basit route'lama işlemini, parent child arası veri alışverişi kapsamaktadır. Aynı zamanda sepet yönetimi yapılmıştır. Kullanıcı stokta olan ürünleri sepetine ekleyip istediği miktarda çıkarabilmektedir. Ek olarak ürünler kategorilere göre filtrelenmektedir.)
 
+([@engindemirog](https://github.com/engindemirog) hocama youtube'daki [react eğitimini](https://www.youtube.com/playlist?list=PLqG356ExoxZXEW9h1uTWCwqLLTJ_bO5Be) hazırladığı için teşekkür ederim.)
+
 ### Built With
 
 * [React](https://reactjs.org/)
