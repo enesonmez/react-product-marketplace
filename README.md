@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# React Product Marketplace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![screen-shot](./public/screen.png)
 
-## Available Scripts
+A project created for an overview of React. This project covers listing data by pulling data from an API, understanding state - props APIs, working with events, using conditional structures, simple routing, data exchange between parent child. At the same time, cart management was done. The user can add the products in stock to his cart and remove them in any quantity. In addition, products are filtered by category. (React'a genel bir bakış için oluşturulmuş bir proje. Bu proje bir api'dan veri çekerek verileri listelemeyi, state - props apılarını anlamayı, event'lar ile çalışmayı, koşullu yapılar kullanmayı, basit route'lama işlemini, parent child arası veri alışverişi kapsamaktadır. Aynı zamanda sepet yönetimi yapılmıştır. Kullanıcı stokta olan ürünleri sepetine ekleyip istediği miktarda çıkarabilmektedir. Ek olarak ürünler kategorilere göre filtrelenmektedir.)
 
-In the project directory, you can run:
+### Built With
 
-### `npm start`
+* [React](https://reactjs.org/)
+* [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [Reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
+* [Json Server](https://github.com/typicode/json-server)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### `npm test`
+* json-server
+  ```sh
+  npm install -g json-server
+  ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* create-react-app (optional)
+  ```sh
+  npm install -g create-react-app
+  ```
 
-### `npm run build`
+### Installation
+1. Clone the repo
+   ```sh
+   git clone https://github.com/enesonmez/react-product-marketplace.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Json Api Run
+   ```sh
+    cd db
+    json-server --watch db.json --port 3004
+   ```
+3. React Run
+   ```sh
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
+Enes Sönmez - [@enesonmez](https://www.linkedin.com/in/enesonmez/) - enesonmezx@gmail.com
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/enesonmez/react-product-marketplace](https://github.com/enesonmez/react-product-marketplace)
